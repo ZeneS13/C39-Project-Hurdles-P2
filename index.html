@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HurdlesGame</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script> -->
+    <script src="p5.play.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script> -->
+    
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyA9ZyqKghy-0qhQg37ogAT2eh8RhPc_cOE",
+        authDomain: "obstacles-fad5b.firebaseapp.com",
+        databaseURL: "https://obstacles-fad5b.firebaseio.com",
+        projectId: "obstacles-fad5b",
+        storageBucket: "obstacles-fad5b.appspot.com",
+     messagingSenderId: "1010207523204",
+     appId: "1:1010207523204:web:abffc2b6282ede9d331dd1"
+      };
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="form.js"></script>
+    <script src="player.js"></script>
+    <script src="game.js"></script>
+    <script src="hurdle.js"></script>
+  </body>
+</html>
